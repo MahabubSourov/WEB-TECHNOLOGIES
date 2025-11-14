@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: serif;
+        }
+        .header, .footer {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .logo {
+            width: 130px;
+        }
+        .nav {
+            float: right;
+        }
+        .container {
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+        .left-menu {
+            width: 250px;
+            border-right: 1px solid black;
+            padding: 15px;
+            vertical-align: top;
+        }
+        .content {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9uXxiAh10APtPFrwUjiSdhhZnFrM9A-49tA&s" class="logo" alt="XCompany">
+    <div class="nav">
+        Logged in as <a href="#">Bob</a> | 
+        <a href="logout.html">Logout</a>
+    </div>
+</div>
+
+<table class="container" width="100%">
+    <tr>
+        <td class="left-menu">
+            <b>Account</b>
+            <hr>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">View Profile</a></li>
+                <li><a href="#">Edit Profile</a></li>
+                <li><a href="#">Change Profile Picture</a></li>
+                <li><a href="#">Change Password</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </td>
+
+        <td class="content">
+            <h2>Welcome Bob</h2>
+        </td>
+    </tr>
+</table>
+
+<div class="footer" align="center">
+    Copyright © 2017
+</div>
+
+</body>
+</html>
